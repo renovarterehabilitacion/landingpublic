@@ -1,0 +1,214 @@
+.body{
+	background-color: #f5f6fa;
+	font-family: "Century Gothic", Sans-serif;
+}
+
+.header{
+	background-color: #f5f6fa;
+	height: 150px;
+}
+
+.input1{
+	width: 100%;
+}
+
+.divPrincipal{
+	background-color: rgba(157,235,255,0.75);
+    border-radius: 20px 20px 20px 20px;
+    padding: 15px 0px 20px 0;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8),0 6px 20px 0 rgba(0,0,0,-0.1)
+}
+
+.imgLogo{
+	max-width: 300px;
+}
+
+.h1Titulo{
+	line-height: 8rem;
+	color: #5c5a46;
+}
+
+.containerPrincipal{
+	background-image: url(../img/terapia.jpg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    padding: 0 0 120px 0;
+}
+
+.divContainForm{
+	padding: 50px 0 0 0;
+}
+
+.divImagenLogo{
+	text-align: left;	
+}
+
+.panelResponsiveImagen{
+	display: none;
+}
+
+.imgWhatsapp{
+	max-width: 30px;
+}
+
+.imgFacebook{
+	max-width: 30px;
+}
+
+.containerInicial{
+	background-image: url(../img/terapiaInitial.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 0 0 0px 0;
+    display: block;
+}
+
+.containerInicial1{
+	background-color: rgba(48,49,63,0.4) ;
+	color: white;	
+	padding: 0 0 120px 0;
+}
+
+.containerInicial2{
+	padding: 50px 0 0px 0;
+}
+
+.containerInicialResponsive{
+	display: none;
+}
+
+.parrafoInicial {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 22px;
+    padding: 0 15px 0 15px;
+}
+
+.divContactos{
+	text-align: right;
+}
+
+.divPanelSoat{
+	background-color: #ffff;
+	padding: 0 30px 0 30px; 
+}
+
+.ImgDivPanelSoat{
+	background-color: #ffff;
+	padding: 90px 30px 0 30px; 
+}
+
+.divPanelSoatRelieve{
+	background-color: white; 
+	border-radius: 20px; 
+	padding: 20px 0 0 0; 
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8),0 6px 20px 0 rgba(0,0,0,-0.1) 
+}
+
+.divResponsivePanelSoat{
+	padding: 0px 0px 0px 0px;
+}
+
+.h1Soat{
+	text-align: right;
+}
+
+.parrafoSoatInfoServicio {
+    font-size: 16px;
+}
+
+footer {
+    background-color: #30313f;
+    color: white;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 1600px) {
+}	
+
+@media only screen and (max-width: 1024px) {
+	
+	.containerPrincipal{
+		background-image: none;
+    	padding: 0 0 10px 0;
+	}
+	.divContainForm{
+		padding: 0px 0 0 0;
+	}
+	.h1Titulo{
+		line-height: 2rem;
+		color: #5c5a46;
+		font-size: 25px;
+	}
+	.tituloContactanos{
+		font-size: 22px;
+	}
+	.divImagenLogo{
+		text-align: center;	
+	}
+	.panelResponsiveImagen{
+		display: block;
+	}
+	.containerInicial{
+		background-image: url(../img/terapiaInitial.png);
+    	background-size: 100%;
+    	background-repeat: no-repeat;
+   	 	padding: 0 0 0px 0;
+   	 	display: none;
+	}
+	.containerInicialResponsive{
+		padding: 20px 0px 0 0;
+		display: block;
+	}
+	.containerInicial2Responsive{
+    	background-position: center;
+	}
+	.divcontenidoParrafo{
+		background-color: rgba(157,235,255,0.75);
+    	border-radius: 20px 20px 20px 20px;
+		color: #30313f;	
+		padding: 15px 0px 20px 0;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8),0 6px 20px 0 rgba(0,0,0,-0.1)
+	}
+	.parrafoInicial {
+    	margin-top: 0rem;
+    	margin-bottom: 0rem;
+    	font-size: 12px;
+  	  	padding: 0 15px 0 15px;
+  	  	font-weight: bold;
+	}
+	.divContactos{
+		text-align: center;
+	}
+	.divPanelSoat{
+		background-color: #ffff;
+		padding: 0 0px 20px 0px; 
+	}
+	.ImgDivPanelSoat{
+		background-color: #ffff;
+		padding: 0px 0px 20px 0px; 
+	}
+	.divResponsivePanelSoat{
+		padding: 0px 10px 0px 10px;
+	}
+	.h1Soat{
+		text-align: center;
+		font-size: 30px;
+	}
+	.parrafoSoatInfoServicio {
+    	font-size: 12px;
+	}
+
+
+}
+
+@media only screen and (max-width: 768px) {
+	
+	
+}
+
+@media only screen and (max-width: 480px) {
+}
